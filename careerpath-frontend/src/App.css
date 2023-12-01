@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+body {
+  font-family: 'Inter';
+  color: #000;
+}
+
+.navbar {
+  height: 145px;
+  background: #c4c4c4;
+}
+
+.logo-img {
+  margin-left: 30px;
+}
+
+.app-name {
+  width: 245px;
+  height: 65px;
+  font-family: 'Koulen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 72px;
+  color: #000000;
+  margin-left: 40px;
+}
+
+.logout-btn {
+  font-family: 'Inter';
+  color: #cfb991;
+  background: #000;
+  font-weight: 800;
+  font-size: 20px;
+  padding-inline: 25px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.logout-btn:hover {
+  color: #000;
+  background: #cfb991;
+}
+
+.main-container {
+  min-height: calc(100vh - 145px);
+  background-image: url('./assets/home-cover.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top-heading {
+  font-family: 'Inter';
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.login-btn {
+  background: #cfb991 !important;
+  color: #000 !important;
+  font-family: 'Inter';
+  font-size: 40px;
+  font-weight: 702;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.signup-btn {
+  color: #cfb991 !important;
+  background: #000 !important;
+  font-family: 'Inter';
+  font-size: 40px;
+  font-weight: 702;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.side-bar {
+  width: 400px;
+  min-height: calc(100vh - 145px);
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.main-content {
+  width: calc(100vw - 400px);
+  overflow: hidden;
+}
+
+.loggedin-user {
+  font-size: 27px;
+  font-weight: 300;
+  font-family: 'Inter';
+}
+
+.sidebar-logo {
+  border: 20px solid #c4c4c4;
+}
+
+.sidebar-info-div {
+  width: 250px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.side-links > .btn-side {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.side-links > .btn-side:hover {
+  color: #0000ff;
+}
+
+.gold-heading {
+  color: #cfb991 !important;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-modal-close {
+  position: absolute;
+  right: -18px;
+  top: -18px;
+  background: #cfb991;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.modal-inner-div {
+  height: 60vh;
+  border: 1px solid #000;
+  width: 60vh;
+  background: #fff;
+  border-radius: 30px;
+  position: relative;
+}
+
+.input-icons svg {
+  position: absolute;
+  right: -15px;
+  top: 5px;
+  font-size: 20px;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.icon {
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+}
+
+.input-field::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(0, 0, 0);
+  opacity: 1; /* Firefox */
+}
+
+.login-btn-a {
+  background: #c4c4c4;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.login-btn-a:hover {
+  background: #cfb991;
+}
+
+.navigators {
+  cursor: pointer;
+}
+
+.navigators:hover {
+  color: rgb(0, 0, 255);
+}
+
+select {
+  background: #fff;
+}
+
+.logout-btn-appointment {
+  font-size: 14px;
+}
+
+.react-date-picker__wrapper {
+  border: none !important;
+}
+
+.clr-gold {
+  color: #cfb991;
+}
+
+.bg-gold {
+  background: #cfb991;
+}
+
+.clr-grey {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.bg-grey {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.border-grey {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.capsule {
+  background-color: #fff;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.sign-up_user-type {
+  margin-top: 32px !important;
+  margin-top: 32px !important;
+}
